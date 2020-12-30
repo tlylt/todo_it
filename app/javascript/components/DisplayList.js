@@ -1,6 +1,7 @@
 import React from "react"
 
 class DisplayList extends React.Component {
+  // render list of todos
   render() {
     const { items, handleCheck } = this.props
     return (
@@ -8,7 +9,7 @@ class DisplayList extends React.Component {
         {items.map((item) => (
           <li className="list-group-item" key={item.id}>
             <input id={item.id} onClick={handleCheck} data-checked={item.completed} type="checkbox" />
-            <label data-checked={item.completed}><span>{item.text}</span></label></li>))}
+            <label htmlFor={item.id} data-checked={item.completed}><span>{item.text}</span></label></li>))}
       </ul>
     )
   }

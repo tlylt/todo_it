@@ -15,12 +15,12 @@ class ToDo extends React.Component {
     this.handleCheck = this.handleCheck.bind(this);
   }
 
-  handleChange(e) {
+  handleChange(e) { // get user input for new todo
     this.setState({
       displayText: e.target.value
     })
   }
-  handleSubmit(e) {
+  handleSubmit(e) {  // add new todo
     e.preventDefault();
     if (!this.state.displayText.length) {
       return;
@@ -35,13 +35,13 @@ class ToDo extends React.Component {
       displayText: ""
     }))
   }
-  handleDelete(e) {
+  handleDelete(e) { // clear entire list of items
     this.setState({
       items: [],
       displayText: ""
     })
   }
-  handleRemove(e) {
+  handleRemove(e) { // remove items that are marked as completed 
     if (this.state.items.length === 0) {
       return;
     } else {
@@ -51,7 +51,7 @@ class ToDo extends React.Component {
       }))
     }
   }
-  handleCheck(e) {
+  handleCheck(e) { // mark item as completed
     const currTask = this.state.items.find(task => task.id === e.target.id);
     currTask.completed = e.target.checked;
     this.setState((state) => ({
