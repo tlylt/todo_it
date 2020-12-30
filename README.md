@@ -40,8 +40,8 @@ Users can
 - Implement a tagging system where users can create a tag and add tasks under that tag (Task 2)
 - Persist data into localStorage
 - Persist data into mySQL database
-  o Create relevant models
-  o Create Restful routes for interaction of front-end with database
+  - Create relevant models
+  - Create Restful routes for interaction of front-end with database
 - Improve code quality and add relevant CSS
 - Host on Heroku/Netlify
 
