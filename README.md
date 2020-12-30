@@ -12,6 +12,11 @@
 
 Screenshot of ![Rails installation](/submission/rails_screenshot.PNG)
 
+Run by
+
+- rails server
+- App available at /welcome/index
+
 ---
 
 #### 3
