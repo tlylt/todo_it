@@ -16,11 +16,10 @@ Screenshot of ![Rails installation](/submission/rails_screenshot.PNG)
 
 #### 3
 
-Mid-assignment submission [[(PDF)](/submission/mid_assignment_submission_liu_yongliang)
+Mid-assignment submission [(PDF)](/submission/mid_assignment_submission_liu_yongliang.pdf)
 
 ##### Current
 
-Task 1 – Managing Tasks
 Users can
 
 - Add new tasks
@@ -41,7 +40,8 @@ Users can
 
 ---
 
-Demo
+#### Demo
+
 ![demo](/submission/demo1a.png)
 ![demo](/submission/demo1b.png)
 ![demo](/submission/demo1.gif)
