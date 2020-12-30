@@ -12,6 +12,8 @@
 
 Screenshot of ![Rails installation](/submission/rails_screenshot.PNG)
 
+Front-end code mainly in app/javascript/components
+
 Run by
 
 - rails server
